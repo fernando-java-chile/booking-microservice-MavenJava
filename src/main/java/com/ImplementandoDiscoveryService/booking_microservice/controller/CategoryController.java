@@ -20,7 +20,7 @@ public class CategoryController {
     // cambio del valor desde github a través del sistema config-server
     // @RefreshScope: Refrescando las Configuraciones
     // para ejecurtar los cambios en tiempo de ejecución
-    // POST a 192.168.100.14:8086/actuator/refresh
+    // POST a 192.168.100.14:8086
     // y luego 192.168.100.14:8086/v1/categories/test
     @RequestMapping("/test")
     public String test() {
